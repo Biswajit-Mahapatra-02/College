@@ -17,7 +17,6 @@ public class A5Q2 {
             }
             if(marks>=40)
                 pass_count++;
-
         }
         if(pass_count>1)
             System.out.println(pass_count+" students passed the examination.");
