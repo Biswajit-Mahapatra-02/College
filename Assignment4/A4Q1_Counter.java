@@ -10,7 +10,7 @@ public class A4Q1_Counter {
         int end = sc.nextInt();
         System.out.print("Enter jump value: ");
         int jump = sc.nextInt();
-        for (int i = start; i <= end; i+=3){
+        for (int i = start; i <= end; i+=jump){
             System.out.print(i+" ");
         }
     }
