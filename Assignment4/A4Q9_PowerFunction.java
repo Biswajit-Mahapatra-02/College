@@ -13,5 +13,7 @@ public class A4Q9_PowerFunction {
             finder = x;
         }
         System.out.println("Found: "+finder);
+        sc.close();
     }
+
 }

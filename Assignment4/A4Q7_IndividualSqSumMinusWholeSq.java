@@ -11,7 +11,7 @@ public class A4Q7_IndividualSqSumMinusWholeSq {
             sum2+=i;
         sum2= sum2*sum2;
         System.out.println("The square of the sum of the first ten natural numbers is: "+sum2);
-        System.out.println("Hence the difference between the sum of the squares of the first ten natural numbers\n" +
+        System.out.println("Hence the difference b/w the sum of the squares of the first ten natural numbers\n" +
                 "and the squares of the sum is: "+(sum2-sum1));
     }
 }

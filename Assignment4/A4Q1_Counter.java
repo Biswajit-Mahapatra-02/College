@@ -13,5 +13,6 @@ public class A4Q1_Counter {
         for (int i = start; i <= end; i+=jump){
             System.out.print(i+" ");
         }
+        sc.close();
     }
 }

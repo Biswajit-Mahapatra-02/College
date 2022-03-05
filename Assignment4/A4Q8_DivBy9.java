@@ -13,7 +13,7 @@ public class A4Q8_DivBy9 {
             sum+=d;
             dup/=10;
         }
-        if (dup%9==0)
+        if (sum%9==0)
             System.out.println(num1+" is divisible by 9");
         dup = num2;
         while (dup!=0){
@@ -21,7 +21,7 @@ public class A4Q8_DivBy9 {
             sum+=d;
             dup/=10;
         }
-        if (dup%9==0)
+        if (sum%9==0)
             System.out.println(num2+" is divisible by 9");
         dup=num3;
         while (dup!=0){
@@ -29,7 +29,7 @@ public class A4Q8_DivBy9 {
             sum+=d;
             dup/=10;
         }
-        if (dup%9==0)
+        if (sum%9==0)
             System.out.println(num3+" is divisible by 9");
     }
 }
