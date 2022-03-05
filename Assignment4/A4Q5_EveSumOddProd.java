@@ -15,5 +15,6 @@ public class A4Q5_EveSumOddProd {
         }
         System.out.println("Sum of all even numbers = "+sum);
         System.out.println("Product of all odd numbers = "+product);
+        sc.close();
     }
 }
