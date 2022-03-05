@@ -1,8 +1,6 @@
 package Assignment4;
-import java.util.Scanner;
 public class A4Q8_DivBy9 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int num1=123456;
         int num2=154368;
         int num3=621594;
