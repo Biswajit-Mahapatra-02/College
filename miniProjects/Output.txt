@@ -1,0 +1,13 @@
+Armstrong Number output=> 
+Number of armstrong numbers between 0 and 1000000: 6
+
+Point Program Output=>
+Enter x coordinate for point1: 2
+Enter y coordinate for point1: 3
+Enter x coordinate for point2: 4
+Enter y coordinate for point2: 5
+Given points A and B respectively are:
+x coordinate: 2
+y coordinate: 3
+x coordinate: 4
+y coordinate: 5
