@@ -7,5 +7,6 @@ public class A5Q1 {
         int n = sc.nextInt();
         for(int i = 0 ; i <= n ; i++)
             System.out.println(i+"\t"+(int)Math.pow(2,i));
+        sc.close();
     }
 }

@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class A5Q4_ver1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int input;
         int num_count=0;
         int p_count=0;
         int n_count=0;
@@ -33,5 +32,6 @@ public class A5Q4_ver1 {
         System.out.println("The total is "+total);
         avg=(double)total/num_count;
         System.out.println("The average is "+avg);
+        sc.close();
     }
 }

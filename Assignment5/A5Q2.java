@@ -6,21 +6,19 @@ public class A5Q2 {
         System.out.print("Enter the number of students: ");
         int n = sc.nextInt();
         int pass_count=0;
-        for ( int i = 0; i < n; i++){
+        for ( int i = 0; i < n; ){
             System.out.print("Enter marks: ");
             int marks=sc.nextInt();
-            if(marks>100){
-                System.out.println("Not a valid mark.");
-                System.out.println("Please enter marks between 0 and 100");
-                i--;
+            if(marks<0||marks>100){
+                System.out.println("Not a valid score. Please try again.");
                 continue;
             }
             if(marks>=40)
                 pass_count++;
+            i++;
         }
-        if(pass_count>1)
-            System.out.println(pass_count+" students passed the examination.");
-        else
-            System.out.println(pass_count+" student passed the examination.");
+        System.out.println(pass_count+" students passed the examination.");
+        
+        sc.close();
     }
 }
