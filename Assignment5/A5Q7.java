@@ -12,5 +12,6 @@ public class A5Q7 {
                 sum+=j;
         }
         System.out.println("Sum: "+sum);
+        sc.close();
     }
 }

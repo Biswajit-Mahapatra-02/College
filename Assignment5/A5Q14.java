@@ -3,27 +3,21 @@ import java.util.Scanner;
 public class A5Q14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int range = sc.nextInt();
-        int a=0,b=1,c;
-        System.out.print("0, 1, ");
-        if(range>2) {
-            for (int i = 3; i <=range; i++) {
-                c = a + b;
-                if(range==i) {
-                    System.out.println(c);
-                    break;
-                }
-
-                System.out.print(c + ", ");
-                a = b;
-                b = c;
-            }
+        System.out.println("number of terms :");
+        int n=sc.nextInt();
+        int a=0,b=1;
+        System.out.print(a + ", "+b+", ");
+        for(int i=1 ; i<=(n-2)/2 ; i++)
+        {
+            a=a+b;
+            b=a+b;
+            System.out.print(a+", "+b+", ");
         }
-        else if(range == 1)
-            System.out.println(1);
-        else if(range == 0)
-            System.out.println(0);
-        else
-            System.out.println("invalid range");
+        if(n%2!=0)
+        {
+            a=a+b;
+            System.out.println(a);
+        }
+            sc.close();
     }
 }

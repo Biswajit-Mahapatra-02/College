@@ -11,5 +11,6 @@ public class A5Q15 {
         for (int  i = 1 ; i <= months; i++)
             sum = (amount+sum) * (1+monthly_interest_rate);
         System.out.printf("Result amount: "+"%.3f%n", sum);
+        sc.close();
     }
 }

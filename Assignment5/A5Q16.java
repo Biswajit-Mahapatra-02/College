@@ -18,5 +18,6 @@ public class A5Q16 {
             dup/=10; i--;
         }
         System.out.println(reverse);
+        sc.close();
     }
 }

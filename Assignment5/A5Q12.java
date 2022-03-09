@@ -9,6 +9,7 @@ public class A5Q12 {
             sum = sum + (Math.pow(x,i)/calculateFactorial(i));
         }
         System.out.println(sum);
+        sc.close();
     }
     public static double calculateFactorial(double n){
         int fact=1;

@@ -8,5 +8,6 @@ public class A5Q8 {
         for(int i =1; i<=n;i++)
             fact*=i;
         System.out.println("Factorial: "+fact);
+        sc.close();
     }
 }

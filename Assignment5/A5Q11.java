@@ -15,6 +15,7 @@ public class A5Q11 {
             else
                 sum = sum + (Math.pow(x,j)/ calculateFactorial(j));
         System.out.printf("Cosine Taylor series expansion result: "+"%6f%n", sum);
+        sc.close();
     }
     public static double calculateFactorial(double n){
         int fact=1;

@@ -11,10 +11,11 @@ public class A5Q10 {
         double sum=0;
         for(int i=1,j=1;i<=10;i++,j+=2)
             if(i%2==0)
-                sum = sum - (Math.pow(x,j)/ calculateFactorial(j));
+                sum -= (Math.pow(x,j)/ calculateFactorial(j));
             else
-                sum = sum + (Math.pow(x,j)/ calculateFactorial(j));
+                sum += (Math.pow(x,j)/ calculateFactorial(j));
         System.out.printf("Sine Taylor series expansion result: "+"%6f%n", sum);
+        sc.close();
     }
     public static double calculateFactorial(double n){
         int fact=1;
