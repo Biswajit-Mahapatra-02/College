@@ -19,5 +19,6 @@ public class A5Q20 {
             else
                 div++;
         }
+        sc.close();
     }
 }
