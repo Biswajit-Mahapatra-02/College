@@ -9,6 +9,16 @@ public class algo5{
         int exponent = sc.nextInt();
         System.out.print("Enter dividend:");
         int dividend = sc.nextInt();
-        
+        String bin=Integer.toBinaryString(exponent);
+        int length=bin.length();
+        int res=1;
+        for(int i = 0,j=length-1; i<length; i++,j--){
+            String temp = ""+bin.charAt(j);
+            if(Integer.parseInt(temp)==1){
+                base*=res;
+            }
+            res=(int)Math.pow(base, 2)%dividend;
+            // if bin = 0, base = res?
+        }
     }
 }
