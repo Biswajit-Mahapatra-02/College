@@ -1,3 +1,5 @@
+package Assignment3;
+
 import java.util.*;
 public class A3Q5 {
 		public static void main(String[] args) {

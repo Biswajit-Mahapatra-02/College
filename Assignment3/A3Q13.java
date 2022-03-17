@@ -1,3 +1,4 @@
+package Assignment3;
 import java.util.Scanner;
 
 public class A3Q13 {
