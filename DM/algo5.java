@@ -11,14 +11,18 @@ public class algo5{
         int dividend = sc.nextInt();
         String bin=Integer.toBinaryString(exponent);
         int length=bin.length();
-        int res=1;
+        int x=1;
+        int power = base % dividend;
         for(int i = 0,j=length-1; i<length; i++,j--){
             String temp = ""+bin.charAt(j);
             if(Integer.parseInt(temp)==1){
-                base*=res;
+                x=(x*power)%dividend;
             }
-            res=(int)Math.pow(base, 2)%dividend;
+            // res=(int)Math.pow(base, 2)%dividend;
+            power = (power*power)%dividend;
             // if bin = 0, base = res?
         }
+        System.out.println(base+"^"+exponent+" mod"+dividend+" = "+x);
+        sc.close();
     }
 }
