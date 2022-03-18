@@ -18,9 +18,7 @@ public class algo5{
             if(Integer.parseInt(temp)==1){
                 x=(x*power)%dividend;
             }
-            // res=(int)Math.pow(base, 2)%dividend;
             power = (power*power)%dividend;
-            // if bin = 0, base = res?
         }
         System.out.println(base+"^"+exponent+" mod"+dividend+" = "+x);
         sc.close();
